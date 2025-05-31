@@ -42,13 +42,7 @@ function Example() {
   const self = useSelf();
 
   if (spreadsheet == null) {
-    return (
-      <img
-        alt="Loading"
-        className={styles.loading}
-        src="https://liveblocks.io/loading.svg"
-      />
-    );
+    return <h1> Rasel Real Time</h1>;
   }
 
   const { users, columns, rows, insertColumn, insertRow } = spreadsheet;
