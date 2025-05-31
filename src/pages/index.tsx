@@ -42,7 +42,7 @@ function Example() {
   const self = useSelf();
 
   if (spreadsheet == null) {
-    return <h1> Rasel Real Time</h1>;
+    return <h1> Rasel Real Time Sheet....</h1>;
   }
 
   const { users, columns, rows, insertColumn, insertRow } = spreadsheet;
